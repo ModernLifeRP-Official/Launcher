@@ -1,7 +1,3 @@
-# Tauri + Vanilla
+# ModernLifeRP | Launcher
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+This "Launcher" is based on the default Rust Tauri javascript design. I was bored and wanted to test if it works. Currently it is not used.
