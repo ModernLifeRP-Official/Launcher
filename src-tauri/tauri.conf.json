@@ -1,0 +1,35 @@
+{
+    "build": {
+        "devPath": "../src",
+        "distDir": "../src",
+        "withGlobalTauri": true
+    },
+    "package": {
+        "productName": "launcher",
+        "version": "0.0.0"
+    },
+    "tauri": {
+        "allowlist": {
+            "all": false,
+            "shell": {
+                "all": false,
+                "open": true
+            }
+        },
+        "windows": [{
+            "title": "ModernLifeRP | Launcher",
+            "width": 800,
+            "height": 600
+        }],
+        "security": {
+            "csp": null
+        },
+        "bundle": {
+            "active": true,
+            "category": "DeveloperTool",
+            "copyright": "",
+            "icon": ["icons/icon.png"],
+            "identifier": "com.modernliferp.launcher"
+        }
+    }
+}
